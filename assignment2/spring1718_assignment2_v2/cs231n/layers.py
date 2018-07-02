@@ -267,7 +267,6 @@ def batchnorm_backward(dout, cache):
 
     return dx, dgamma, dbeta
 
-
 def batchnorm_backward_alt(dout, cache):
     """
     Alternative backward pass for batch normalization.
